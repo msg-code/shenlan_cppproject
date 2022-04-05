@@ -1,0 +1,3 @@
+/home/msg/workspace/c++project/project4/CMakeFiles/rebuild_cache.dir
+/home/msg/workspace/c++project/project4/CMakeFiles/edit_cache.dir
+/home/msg/workspace/c++project/project4/CMakeFiles/main.dir

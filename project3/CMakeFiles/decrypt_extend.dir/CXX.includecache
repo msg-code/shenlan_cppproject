@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/msg/workspace/c++project/project3/decrypt_extend.cpp
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+unordered_map
+-
+

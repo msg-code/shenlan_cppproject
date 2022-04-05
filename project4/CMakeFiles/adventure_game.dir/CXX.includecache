@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/msg/workspace/c++project/project4/adventure_game.cpp
+adventure_game.h
+/home/msg/workspace/c++project/project4/adventure_game.h
+iostream
+-
+time.h
+-
+
+/home/msg/workspace/c++project/project4/adventure_game.h
+iostream
+-
+character.h
+/home/msg/workspace/c++project/project4/character.h
+weapon.h
+/home/msg/workspace/c++project/project4/weapon.h
+
+/home/msg/workspace/c++project/project4/character.h
+iostream
+-
+vector
+-
+weapon.h
+/home/msg/workspace/c++project/project4/weapon.h
+
+/home/msg/workspace/c++project/project4/weapon.h
+iostream
+-
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/msg/workspace/c++project/Final_project/Matrix.h
+iostream
+-
+vector
+-
+type_traits
+-
+
+/home/msg/workspace/c++project/Final_project/main.cpp
+iostream
+-
+type_traits
+-
+assert.h
+-
+Matrix.h
+/home/msg/workspace/c++project/Final_project/Matrix.h
+

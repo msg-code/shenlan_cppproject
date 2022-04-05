@@ -1,0 +1,3 @@
+/home/msg/workspace/c++project/test/CMakeFiles/rebuild_cache.dir
+/home/msg/workspace/c++project/test/CMakeFiles/edit_cache.dir
+/home/msg/workspace/c++project/test/CMakeFiles/test.dir

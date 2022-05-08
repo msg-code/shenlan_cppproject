@@ -142,60 +142,6 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-adventure_game.o: adventure_game.cpp.o
-
-.PHONY : adventure_game.o
-
-# target to build an object file
-adventure_game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/adventure_game.cpp.o
-.PHONY : adventure_game.cpp.o
-
-adventure_game.i: adventure_game.cpp.i
-
-.PHONY : adventure_game.i
-
-# target to preprocess a source file
-adventure_game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/adventure_game.cpp.i
-.PHONY : adventure_game.cpp.i
-
-adventure_game.s: adventure_game.cpp.s
-
-.PHONY : adventure_game.s
-
-# target to generate assembly for a file
-adventure_game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/adventure_game.cpp.s
-.PHONY : adventure_game.cpp.s
-
-character.o: character.cpp.o
-
-.PHONY : character.o
-
-# target to build an object file
-character.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/character.cpp.o
-.PHONY : character.cpp.o
-
-character.i: character.cpp.i
-
-.PHONY : character.i
-
-# target to preprocess a source file
-character.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/character.cpp.i
-.PHONY : character.cpp.i
-
-character.s: character.cpp.s
-
-.PHONY : character.s
-
-# target to generate assembly for a file
-character.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/character.cpp.s
-.PHONY : character.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -232,12 +178,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... adventure_game.o"
-	@echo "... adventure_game.i"
-	@echo "... adventure_game.s"
-	@echo "... character.o"
-	@echo "... character.i"
-	@echo "... character.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

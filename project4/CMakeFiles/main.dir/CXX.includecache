@@ -6,20 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/msg/workspace/c++project/project4/adventure_game.cpp
-adventure_game.h
-/home/msg/workspace/c++project/project4/adventure_game.h
-iostream
--
-time.h
--
-random
--
-
 /home/msg/workspace/c++project/project4/adventure_game.h
 iostream
 -
 algorithm
+-
+memory
 -
 unistd.h
 -
@@ -43,6 +35,10 @@ weapon.h
 /home/msg/workspace/c++project/project4/main.cpp
 iostream
 -
+vector
+-
+unistd.h
+/home/msg/workspace/c++project/project4/unistd.h
 adventure_game.h
 /home/msg/workspace/c++project/project4/adventure_game.h
 

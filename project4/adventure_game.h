@@ -3,10 +3,19 @@
 
 #include<iostream>
 #include<algorithm>
+#include<memory>
 #include<unistd.h>
 #include"character.h"
 #include"weapon.h"
 
+struct Endl{
+
+};
+inline std::ostream& operator<<(std::ostream& out, const Endl&){
+    sleep(10);
+    std::cout << std::endl;
+    return std::cout;
+}
 class adventure_game
 {
 private:
@@ -28,18 +37,11 @@ public:
     std::cout << "welcome to adventure game!" << Endl{}; 
     }
     void game_run();
-
+    std::vector<std::shared_ptr<character>> vec;
     void test();
     // ~adventure_game();
 };
-struct Endl{
 
-};
-inline std::ostream& operator<<(std::ostream& out, const Endl&){
-    sleep(10);
-    std::cout << std::endl;
-    return std::cout;
-}
 
 // adventure_game::adventure_game()
 // {

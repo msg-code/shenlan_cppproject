@@ -4,8 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/msg/workspace/c++project/project4/adventure_game.cpp" "/home/msg/workspace/c++project/project4/CMakeFiles/main.dir/adventure_game.cpp.o"
-  "/home/msg/workspace/c++project/project4/character.cpp" "/home/msg/workspace/c++project/project4/CMakeFiles/main.dir/character.cpp.o"
   "/home/msg/workspace/c++project/project4/main.cpp" "/home/msg/workspace/c++project/project4/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
